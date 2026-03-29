@@ -1,9 +1,3 @@
-export default function dashboardPage()
-{
-  return (
-    <div>
-        <h1>Dashboard</h1>
-        <p>Your budget overall will go here</p>
-    </div>
-  )
+export default function DashboardPage(){
+    return <h1 className="text-2xl font-bold p-8">Dashboard</h1>
 }
